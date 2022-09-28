@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping store</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/product.css" rel="stylesheet">
+	<link href="css/contact.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Farro&display=swap" rel="stylesheet">
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  </head>
+  
+<body>
+<section id="header_top" class="clearfix">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="header_top_1 clearfix">
+    <div class="col-sm-4">
+	 <div class="header_top_1_inner clearfix">
+	    <ul class="nav_1">
+					<li class="dropdown tag_1">
+						  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Language<span class="caret"></span></a>
+						  <ul class="dropdown-menu drop_1" role="menu">
+							<li><a href="#">English</a></li>
+							<li><a href="#"> American</a></li>
+							<li><a href="#">Spanish</a></li>
+							<li><a href="#">Hindi</a></li>
+						  </ul>
+						</li>
+					<li class="dropdown tag_1 border_none_1">
+						  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Currency<span class="caret"></span></a>
+						  <ul class="dropdown-menu drop_1" role="menu">
+							<li><a href="#">Rupee</a></li>
+							<li><a href="#">Euro</a></li>
+							  </ul>
+						</li>
+					
+       </ul>
+	 </div>
+	</div>
+	<div class="col-sm-8">
+	 <div class="header_top_1_inner clearfix">
+	   <ul class="nav_1 navbar-right">
+                    <li class="tag_1"><i class="fa fa-truck"></i> <a class="tag_menu" href="#">Status Of Order</a> </li>
+					<li class="tag_1">
+					 <i class="fa fa-lock"></i>
+					<a class="tag_menu" href="#">Login</a> or
+					<a class="tag_menu" href="#">Register</a> 
+					</li>
+					<li class="dropdown tag_1 border_none_1">
+						  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-user"></i> My Profile<span class="caret"></span></a>
+						  <ul class="dropdown-menu drop_1" role="menu">
+							<li><a href="#"><i class="fa fa-user"></i> My Profile </a></li>
+							<li><a href="#"><i class="fa fa-heart-o"></i>  Add to Cart </a></li>
+							<li><a href="#"><i class="fa fa-check-square-o"></i>  Checkout </a></li>
+						  </ul>
+						</li>
+       </ul>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="header_middle" class="clearfix">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="header_middle_1 clearfix">
+    <div class="col-sm-3">
+	 <div class="header_middle_1_left clearfix">
+	   <h3><a href="index.html"><img src="img/logopc.png" width="70px" height="70px"> PC Centre </a></h3><span>All About Computers</span>
+	 </div>
+	</div>
+	<div class="col-sm-7">
+	 <div class="header_middle_1_middle clearfix">
+	  <div class="col-sm-3 space_right">
+	         <select class="form-control">
+			  <option>Classification</option>
+			  <option>Popularity</option>
+			  <option>Rating</option>
+			  <option>Latest</option>
+			  <option>Price</option>
+			  <option>Men</option>
+			  <option>Women</option>
+			  <option>Child</option>
+			  <option>Fashion</option>
+			  <option>Trending</option>
+			  <option>Latest</option>
+			  <option>Computers</option>
+			  <option>Electronics</option>
+			 </select>
+	  </div>
+	  <div class="col-sm-9 space_left header_middle_1_middle_inner">
+	                     <div id="custom-search-input">
+                            <div class="input-group col-sm-12">
+                                <input type="text" class="  search-query form-control" placeholder="Enter Product">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span><i class="fa fa-search"></i></span>                                    </button>
+                                </span>                            </div>
+                        </div>
+	  </div>
+	 </div>
+	</div>
+	<div class="col-sm-2">
+	 <div class="header_middle_1_right clearfix">
+	     <ul>
+		   <li class="tag_3"><a href="#"><i class="fa fa-heart"></i></a></li>
+		   <li class="dropdown tag_1 border_none_1">
+						  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-shopping-bag"></i> WISHLIST</a>
+						  <ul class="dropdown-menu drop_1o" role="menu">
+						<li>
+						 <div class="drop_1i clearfix">
+						  <div class="col-sm-6">
+						   <div class="drop_1il clearfix"><h5 class="mgt">2 ITEMS</h5></div>
+						  </div>
+						  <div class="col-sm-6">
+						   <div class="drop_1il text-right clearfix"><h5 class="mgt"><a href="#">VIEW CART</a></h5></div>
+						  </div>
+						 </div>
+						 <div class="drop_1i1 clearfix">
+						  <div class="col-sm-6">
+						   <div class="drop_1i1l clearfix"><h6 class="mgt bold"><a href="#">Nulla Quis</a> <br> <span class="normal col_2">1x - $89.00</span></h6></div>
+						  </div>
+						  <div class="col-sm-4">
+						   <div class="drop_1i1r clearfix"><a href="#"><img src="img/11.jpg" class="iw" alt="abc"></a></div>
+						  </div>
+						  <div class="col-sm-2">
+						   <div class="drop_1i1l text-right clearfix"><h6 class="mgt bold"> <span><i class="fa fa-remove"></i></span></h6></div>
+						  </div>
+						 </div>
+						 <div class="drop_1i1 clearfix">
+						  <div class="col-sm-6">
+						   <div class="drop_1i1l clearfix"><h6 class="mgt bold"><a href="#">Eget Nulla</a> <br> <span class="normal col_2">1x - $49.00</span></h6></div>
+						  </div>
+						  <div class="col-sm-4">
+						   <div class="drop_1i1r clearfix"><a href="#"><img src="img/13.jpg" class="iw" alt="abc"></a></div>
+						  </div>
+						  <div class="col-sm-2">
+						   <div class="drop_1i1l text-right clearfix"><h6 class="mgt bold"> <span><i class="fa fa-remove"></i></span></h6></div>
+						  </div>
+						 </div>
+						 <div class="drop_1i2 clearfix">
+						  <div class="col-sm-6">
+						   <div class="drop_1il clearfix"><h5 class="mgt">TOTAL</h5></div>
+						  </div>
+						  <div class="col-sm-6">
+						   <div class="drop_1il text-right clearfix"><h5 class="mgt">$138.00</h5></div>
+						  </div>
+						 </div>
+						 <div class="drop_1i3 text-center clearfix">
+						  <div class="col-sm-12">
+						   <h5><a class="button_1" href="#">CHECKOUT</a></h5>
+						  </div>
+						 </div>
+						</li>
+					  </ul>
+
+
+
+
+
+			  </li>
+		 </ul>              
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="header_main" class="clearfix">
+	<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>					</button>
+				<a class="navbar-brand" href="index.html"><i class="fa fa-shopping-cart"></i> ONLINE <span>Shopping store</span></a>				</div>
+	
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li>
+							<a class="menu_tab" href="index.html">HOME</a></li>
+						 
+						<li class="dropdown">
+					  <a class="menu_tab" href="#" data-toggle="dropdown" role="button" aria-expanded="false">PRODUCT<span class="glyphicon glyphicon-chevron-down pull-right icon_1"></span></a>
+					  <ul class="dropdown-menu drop_4" role="menu">
+					    <li><a href="product.html">PRODUCT</a></li>
+						<li><a class="border_none" href="detail.html">PRODUCT DETAIL</a></li>
+					  </ul>
+                   </li>
+				         <li class="dropdown">
+					  <a class="menu_tab" href="#" data-toggle="dropdown" role="button" aria-expanded="false">BLOG<span class="glyphicon glyphicon-chevron-down pull-right icon_1"></span></a>
+					  <ul class="dropdown-menu drop_4" role="menu">
+					    <li><a href="blog.html">BLOG</a></li>
+						<li><a class="border_none" href="blog_detail.html">BLOG DETAIL</a></li>
+					  </ul>
+                   </li>
+						
+						<li>
+							<a class="menu_tab" href="about.html">ABOUT US</a> </li>
+						<li class="dropdown mega-dropdown">
+					<a href="#" class="dropdown-toggle menu_tab menu_tab_1" data-toggle="dropdown">DROPDOWN <span class="glyphicon glyphicon-chevron-down pull-right icon_1"></span></a>
+					
+					<ul class="dropdown-menu mega-dropdown-menu row drop_3">
+						<li class="col-sm-3">
+							<ul>
+								<li class="dropdown-header">Best in Shop</li>
+								<li><a href="#">Lorem Ipsum</a></li>
+								<li><a href="#">Dolor  Amet</a></li>
+								<li><a href="#">Adipiscing Elit</a></li>
+								<li><a href="#">Newsbox</a></li>
+								<li><a href="#"> Integer Nec</a></li>
+								<li class="divider"></li>
+								<li class="dropdown-header">Branded</li>
+								<li><a href="#">New Elements</a></li>
+							</ul>
+						</li>
+						<li class="col-sm-3">
+							<ul>
+								<li class="dropdown-header">Trending</li>
+								<li><a href="#">Lorem Ipsum</a></li>
+								<li><a href="#">Dolor  Amet</a></li>
+								<li><a href="#">Adipiscing Elit</a></li>
+								<li><a href="#">Newsbox</a></li>
+								<li><a href="#"> Integer Nec</a></li>
+								<li class="divider"></li>
+								<li class="dropdown-header">New</li>
+								<li><a href="#">New Elements</a></li>
+							</ul>
+						</li>
+						<li class="col-sm-3">
+							<ul>
+								<li class="dropdown-header">Popular</li>
+								<li><a href="#"><img class="i_full" src="img/1.jpg" alt="abc" height="250"></a></li>
+							</ul>
+						</li>
+						<li class="col-sm-3">
+							<ul>
+							  <li class="dropdown-header">Latest</li>
+							  <li><a href="#"><img class="i_full" alt="abc" src="img/2.jpg" height="250"></a></li>                                        
+							</ul>
+						</li>
+					</ul>
+				</li>
+				       
+					    <li>
+							<a class="menu_tab" href="account.html">ACCOUNT</a></li>
+							
+						
+						<li class="dropdown mega-dropdown">
+					<a href="#" class="dropdown-toggle menu_tab menu_tab_1" data-toggle="dropdown">MORE <span class="glyphicon glyphicon-chevron-down pull-right icon_1"></span></a>
+					
+					<ul class="dropdown-menu mega-dropdown-menu row drop_3">
+						<li class="col-sm-3">
+							<ul>
+								<li class="dropdown-header">Best in Shop</li>
+								<li><a href="#">Lorem Ipsum</a></li>
+								<li><a href="#">Dolor  Amet</a></li>
+								<li><a href="#">Adipiscing Elit</a></li>
+								<li><a href="#">Newsbox</a></li>
+								<li><a href="#"> Integer Nec</a></li>
+								<li class="divider"></li>
+								<li class="dropdown-header">Branded</li>
+								<li><a href="#">New Elements</a></li>
+							</ul>
+						</li>
+						<li class="col-sm-3">
+							<ul>
+								<li class="dropdown-header">Trending</li>
+								<li><a href="#">Lorem Ipsum</a></li>
+								<li><a href="#">Dolor  Amet</a></li>
+								<li><a href="#">Adipiscing Elit</a></li>
+								<li><a href="#">Newsbox</a></li>
+								<li><a href="#"> Integer Nec</a></li>
+								<li class="divider"></li>
+								<li class="dropdown-header">New</li>
+								<li><a href="#">New Elements</a></li>
+							</ul>
+						</li>
+						<li class="col-sm-3">
+							<ul>
+								<li class="dropdown-header">Popular</li>
+								<li><a href="#">Praesent Libero</a></li>
+								<li><a href="#">Sed Cursus</a></li>
+								<li><a href="#">Ante Dapibus </a></li>
+								<li class="divider"></li>
+								<li class="dropdown-header">Old</li>
+								<li><a href="#">Nulla Quis Sem</a></li>
+								<li><a href="#">Elementum Imperdiet</a></li>
+								<li><a href="#">Duis Sagittis</a></li>
+							</ul>
+						</li>
+						<li class="col-sm-3">
+							<ul>
+								<li class="dropdown-header">Latest</li>
+								<li><a href="#">Praesent Mauris</a></li>
+								<li><a href="#">Fusce Nec Tellus </a></li>
+								<li><a href="#">Augue Semper </a></li>							
+								<li class="divider"></li>
+								<li class="dropdown-header">Newsletter</li>
+								<form class="form">
+								  <div class="form-group">
+									<label class="sr-only" for="email">Email address</label>
+									<input type="email" class="form-control" id="email" placeholder="Enter email">                                                              
+								  </div>
+								  <button type="submit" class="btn btn-primary btn-block">Log in</button>
+								</form>                                                       
+							</ul>
+						</li>
+					</ul>
+				</li>
+				
+				        <li>
+							<a class="menu_tab active_tag" href="contact.html">CONTACT</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+					  <li class="menu_tab_2"><i class="fa fa-phone-square"></i> Phone (+123)4 567 890</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+</section>
+
+<section id="center" class="center_contact clearfix">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-sm-12">
+		 <div class="center_product_1 clearfix">
+		 <ul>
+		  <li><a href="#">HOME</a> <i class="fa fa-chevron-right"></i></li>
+		  <li>CONTACT US</li>
+		 </ul>
+		</div>
+
+   </div> 
+  </div>
+ </div>
+</section>
+
+<section id="contact" class="clearfix">
+
+
+
+<!-- contact us form and location and information like cell no , email , address -->
+
+<div class="contain">
+
+	<div class="wrapper">
+  
+	  <div class="form">
+		<h4>GET IN TOUCH</h4>
+		<h2 class="form-headline">Send us a message</h2>
+		<form id="submit-form" action="">
+		  <p>
+			<input id="name" class="form-input" type="text" placeholder="Your Name*">
+			<small class="name-error"></small>
+		  </p>
+		  <p>
+			<input id="email" class="form-input" type="email" placeholder="Your Email*">
+			<small class="name-error"></small>
+		  </p>
+		  <p class="full-width">
+			<input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
+			<small></small>
+		  </p>
+		  <p class="full-width">
+			<textarea minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+			<small></small>
+		  </p>
+		  <p class="full-width">
+			<input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+		  </p>
+		  <p class="full-width">
+			<input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+			<button class="reset-btn" onclick="reset()">Reset</button>
+		  </p>
+		</form>
+	  </div>
+  
+	  <div class="contacts contact-wrapper">
+  
+		<ul>
+		  <li>We've driven online revenues of over <span class="highlight-text-grey">$2
+			  billion</span> for our clients. Ready to know
+			how we can help you?</li>
+		  <span class="hightlight-contact-info">
+			<li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> info@demo.com</li>
+			<li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 11 1111 2900</span></li>
+		  </span>
+		</ul>
+	  </div>
+	</div>
+  </div>
+
+</section>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28945.00113113326!2d67.02760810479577!3d24.92780645090009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f74b44347cd%3A0x32073bcf83019f76!2sComputer%20Shop!5e0!3m2!1sen!2s!4v1664370519175!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<section id="footer">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-sm-12">
+     <div class="footer_1 clearfix">
+	  <div class="col-sm-3">
+	   <div class="footer_1_inner clearfix">
+	     <h3><a href="index.html"><i class="fa fa-shopping-cart"></i> ONLINE <span>Shopping store</span></a></h3>
+		 <ul>
+		   <li><i class="fa fa-home"></i> 40, 27th Street, Elementum Imperdiet, DB 05231, United Kingdom</li>
+		   <li><i class="fa fa-paper-plane"></i> <a href="#">info@gmail.com</a></li>
+		   <li><i class="fa fa-phone"></i> (+XY) 123-456-ZZZ</li>
+		   <li><i class="fa fa-clock-o"></i> Mon - Sat / 11:00AM</li>
+		 </ul>
+	   </div>
+	  </div>
+	  <div class="col-sm-3">
+	   <div class="footer_1_inner clearfix">
+	     <h4>HELP & SUPPORT</h4>
+		 <hr>
+		 <ul class="footer_tab">
+		   <li> <a href="#"><i class="fa fa-dot-circle-o"></i> About Us</a></li>
+		   <li> <a href="#"><i class="fa fa-dot-circle-o"></i> Latest Brands</a></li>
+		   <li> <a href="#"><i class="fa fa-dot-circle-o"></i> Connect Us</a></li>
+		   <li> <a href="#"><i class="fa fa-dot-circle-o"></i> Trending Headlines</a></li>
+		   <li> <a href="#"><i class="fa fa-dot-circle-o"></i> Our Location</a></li>
+		 </ul>
+	   </div>
+	  </div>
+	  <div class="col-sm-3">
+	   <div class="footer_1_inner clearfix">
+	     <h4>INQUIRY</h4>
+		 <hr>
+		 <ul class="footer_tab">
+		   <li> <a href="#"><i class="fa fa-dot-circle-o"></i> Contact Link</a></li>
+		   <li> <a href="#"><i class="fa fa-dot-circle-o"></i> Shopping</a></li>
+		   <li> <a href="#"><i class="fa fa-dot-circle-o"></i> Exchange & Return</a></li>
+		   <li> <a href="#"><i class="fa fa-dot-circle-o"></i> Information</a></li>
+		   <li> <a href="#"><i class="fa fa-dot-circle-o"></i> Report Us</a></li>
+		 </ul>
+	   </div>
+	  </div>
+	  <div class="col-sm-3">
+	    <div class="footer_1_inner clearfix">
+		  <h4>NEWSLETTER</h4>
+		  <hr>
+		  <p>Curabitursodales ligula in libero Sed dignissim lacinia nunc conubia nostra, per inceptos himenaeos !</p>
+		   <div id="custom-search-input_other">
+			  <div class="input-group col-sm-12">
+									<input type="text" class="  search-query form-control" placeholder="Enter Email">
+									<span class="input-group-btn">
+										<button class="btn btn-danger" type="button">
+											<span>SUBMIT</span>
+										</button>
+									</span>
+								</div>
+		  </div>
+	    </div>
+	  </div>
+	 </div>
+	 <div class="footer_3 clearfix">
+	  <p> © 2013 Your Website Name. All Rights Reserved | Design by <a href="http://www.templateonweb.com">TemplateOnWeb</a></p>
+	 </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<div id="toTop" class="btn btn-info" style="display: block; background:#5a5c3f; color:#fff; border:none;"><span class="fa fa-chevron-up"></span></div>
+
+<script>
+
+$(document).ready(function(){
+  $('body').append('<div id="toTop" class="btn btn-info"><span class="glyphicon glyphicon-chevron-up"></span> Back to Top</div>');
+	$(window).scroll(function () {
+		if ($(this).scrollTop() != 0) {
+			$('#toTop').fadeIn();
+		} else {
+			$('#toTop').fadeOut();
+		}
+	}); 
+$('#toTop').click(function(){
+	$("html, body").animate({ scrollTop: 0 }, 600);
+	return false;
+});
+});
+const nameEl = document.querySelector("#name");
+const emailEl = document.querySelector("#email");
+const companyNameEl = document.querySelector("#company-name");
+const messageEl = document.querySelector("#message");
+
+const form = document.querySelector("#submit-form");
+
+function checkValidations() {
+  let letters = /^[a-zA-Z\s]*$/;
+  const name = nameEl.value.trim();
+  const email = emailEl.value.trim();
+  const companyName = companyNameEl.value.trim();
+  const message = messageEl.value.trim();
+  if (name === "") {
+     document.querySelector(".name-error").classList.add("error");
+      document.querySelector(".name-error").innerText =
+        "Please fill out this field!";
+  } else {
+    if (!letters.test(name)) {
+      document.querySelector(".name-error").classList.add("error");
+      document.querySelector(".name-error").innerText =
+        "Please enter only characters!";
+    } else {
+      
+    }
+  }
+  if (email === "") {
+     document.querySelector(".name-error").classList.add("error");
+      document.querySelector(".name-error").innerText =
+        "Please fill out this field!";
+  } else {
+    if (!letters.test(name)) {
+      document.querySelector(".name-error").classList.add("error");
+      document.querySelector(".name-error").innerText =
+        "Please enter only characters!";
+    } else {
+      
+    }
+  }
+}
+
+function reset() {
+  nameEl = "";
+  emailEl = "";
+  companyNameEl = "";
+  messageEl = "";
+  document.querySelector(".name-error").innerText = "";
+}
+
+</script>
+
+</body>
+ 
+
+</html>
